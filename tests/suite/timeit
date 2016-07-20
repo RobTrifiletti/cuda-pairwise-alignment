@@ -1,0 +1,66 @@
+#!/bin/sh
+echo "Test 1 GPU"
+time (for i in {1..10}; do ../../par/build/alignment 496b.fasta 512.fasta ../standard_score.sm; done)
+echo "Test 1 CPU"
+time (for i in {1..10}; do ../../ref/build/globalalign 496b.fasta 512.fasta ../standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 2 GPU"
+time (for i in {1..10}; do ../../par/build/alignment 1024.fasta 1006b.fasta ../standard_score.sm; done)
+echo "Test 2 CPU"
+time (for i in {1..10}; do ../../ref/build/globalalign 1024.fasta 1006b.fasta ../standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 3 GPU"
+time (for i in {1..10}; do ../../par/build/alignment 2048.fasta 2048b.fasta ../standard_score.sm; done)
+echo "Test 3 CPU"
+time (for i in {1..10}; do ../../ref/build/globalalign 2048.fasta 2048b.fasta ../standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 4 GPU"
+time (for i in {1..10}; do ../../par/build/alignment 4096.fasta 4074b.fasta ../standard_score.sm; done)
+echo "Test 4 CPU"
+time (for i in {1..10}; do ../../ref/build/globalalign 4096.fasta 4074b.fasta ../standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 5 GPU"
+time (for i in {1..10}; do ../../par/build/alignment 8192.fasta 8168b.fasta ../standard_score.sm; done)
+echo "Test 5 CPU"
+time (for i in {1..10}; do ../../ref/build/globalalign 8192.fasta 8168b.fasta ../standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 6 GPU"
+time (for i in {1..10}; do ../../par/build/alignment 16358b.fasta 16384.fasta ../standard_score.sm; done)
+echo "Test 6 CPU"
+time (for i in {1..10}; do ../../ref/build/globalalign 16358b.fasta 16384.fasta ../standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 7 GPU"
+time (for i in {1..10}; do ../../par/build/alignment 32740b.fasta 32768.fasta ../standard_score.sm; done)
+echo "Test 7 CPU"
+time (for i in {1..10}; do ../../ref/build/globalalign 32740b.fasta 32768.fasta ../standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 8 GPU"
+time (for i in {1..10}; do ../../par/build/alignment 65536.fasta 65506b.fasta ../standard_score.sm; done)
+echo "Test 8 CPU"
+time (for i in {1..10}; do ../../ref/build/globalalign 65536.fasta 65506b.fasta ../standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 9 GPU"
+time (for i in {1..10}; do ../../par/build/alignment 131040b.fasta 131072.fasta ../standard_score.sm; done)
+echo "Test 9 CPU"
+time (for i in {1..10}; do ../../ref/build/globalalign 131040b.fasta 131072.fasta ../standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 10 GPU"
+time (for i in {1..10}; do ../../par/build/alignment 262110b.fasta 262144.fasta ../standard_score.sm; done)
+echo "Test 10 CPU"
+time (for i in {1..10}; do ../../ref/build/globalalign 262110b.fasta 262144.fasta ../standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 11 GPU, 4"
+time (for i in {1..4}; do ../../par/build/alignment 524252b.fasta 524288.fasta ../standard_score.sm; done)
+echo "Test 11 CPU, 4"
+time (for i in {1..4}; do ../../ref/build/globalalign 524252b.fasta 524288.fasta ../standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 12 GPU, 3"
+time (for i in {1..3}; do ../../par/build/alignment 1048576.fasta 1048538b.fasta ../standard_score.sm; done)
+echo "Test 12 CPU, 3"
+time (for i in {1..3}; do ../../ref/build/globalalign 1048576.fasta 1048538b.fasta ../standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 13 GPU, 2"
+time (for i in {1..2}; do ../../par/build/alignment 2097112b.fasta 2097152.fasta ../standard_score.sm; done)
+echo "Test 13 CPU, 2"
+time (for i in {1..2}; do ../../ref/build/globalalign 2097112b.fasta 2097152.fasta ../standard_score.sm; done)
+echo "-------------------------------------------"

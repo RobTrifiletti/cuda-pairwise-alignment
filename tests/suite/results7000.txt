@@ -1,0 +1,328 @@
+Test 1 GPU~512
+Optimal score: 322
+Optimal score: 322
+Optimal score: 322
+Optimal score: 322
+Optimal score: 322
+Optimal score: 322
+Optimal score: 322
+Optimal score: 322
+Optimal score: 322
+Optimal score: 322
+
+real  0m1.831s ~ 0.183 sec
+user  0m0.192s
+sys 0m1.156s
+Test 1 CPU~512
+optimal score: 322
+optimal score: 322
+optimal score: 322
+optimal score: 322
+optimal score: 322
+optimal score: 322
+optimal score: 322
+optimal score: 322
+optimal score: 322
+optimal score: 322
+
+real  0m0.104s ~ 0.010
+user  0m0.024s
+sys 0m0.016s
+-------------------------------------------
+Test 2 GPU~1024
+Optimal score: 655
+Optimal score: 655
+Optimal score: 655
+Optimal score: 655
+Optimal score: 655
+Optimal score: 655
+Optimal score: 655
+Optimal score: 655
+Optimal score: 655
+Optimal score: 655
+
+real  0m1.673s ~ 0.167
+user  0m0.104s
+sys 0m1.112s
+Test 2 CPU~1024
+optimal score: 655
+optimal score: 655
+optimal score: 655
+optimal score: 655
+optimal score: 655
+optimal score: 655
+optimal score: 655
+optimal score: 655
+optimal score: 655
+optimal score: 655
+
+real  0m0.185s ~ 0.019
+user  0m0.136s
+sys 0m0.008s
+-------------------------------------------
+Test 3 GPU~2048
+Optimal score: 1326
+Optimal score: 1326
+Optimal score: 1326
+Optimal score: 1326
+Optimal score: 1326
+Optimal score: 1326
+Optimal score: 1326
+Optimal score: 1326
+Optimal score: 1326
+Optimal score: 1326
+
+real  0m2.166s ~ 0.217
+user  0m0.484s
+sys 0m1.212s
+Test 3 CPU~2048
+optimal score: 1326
+optimal score: 1326
+optimal score: 1326
+optimal score: 1326
+optimal score: 1326
+optimal score: 1326
+optimal score: 1326
+optimal score: 1326
+optimal score: 1326
+optimal score: 1326
+
+real  0m0.495s ~ 0.050
+user  0m0.452s
+sys 0m0.000s
+-------------------------------------------
+Test 4 GPU~4096
+Optimal score: 2658
+Optimal score: 2658
+Optimal score: 2658
+Optimal score: 2658
+Optimal score: 2658
+Optimal score: 2658
+Optimal score: 2658
+Optimal score: 2658
+Optimal score: 2658
+Optimal score: 2658
+
+real  0m2.478s ~ 0.249
+user  0m0.772s
+sys 0m1.236s
+Test 4 CPU~4096
+optimal score: 2658
+optimal score: 2658
+optimal score: 2658
+optimal score: 2658
+optimal score: 2658
+optimal score: 2658
+optimal score: 2658
+optimal score: 2658
+optimal score: 2658
+optimal score: 2658
+
+real  0m1.791s ~ 0.179
+user  0m1.740s
+sys 0m0.012s
+-------------------------------------------
+Test 5 GPU~8192
+Optimal score: 5324
+Optimal score: 5324
+Optimal score: 5324
+Optimal score: 5324
+Optimal score: 5324
+Optimal score: 5324
+Optimal score: 5324
+Optimal score: 5324
+Optimal score: 5324
+Optimal score: 5324
+
+real  0m3.979s ~ 0.398
+user  0m2.192s
+sys 0m1.328s
+Test 5 CPU~8192
+optimal score: 5324
+optimal score: 5324
+optimal score: 5324
+optimal score: 5324
+optimal score: 5324
+optimal score: 5324
+optimal score: 5324
+optimal score: 5324
+optimal score: 5324
+optimal score: 5324
+
+real  0m6.920s ~ 0.692
+user  0m6.864s
+sys 0m0.012s
+-------------------------------------------
+Test 6 GPU~16384
+Optimal score: 10700
+Optimal score: 10700
+Optimal score: 10700
+Optimal score: 10700
+Optimal score: 10700
+Optimal score: 10700
+Optimal score: 10700
+Optimal score: 10700
+Optimal score: 10700
+Optimal score: 10700
+
+real  0m6.739s ~ 0.674
+user  0m4.836s
+sys 0m1.424s
+Test 6 CPU~16384
+optimal score: 10700
+optimal score: 10700
+optimal score: 10700
+optimal score: 10700
+optimal score: 10700
+optimal score: 10700
+optimal score: 10700
+optimal score: 10700
+optimal score: 10700
+optimal score: 10700
+
+real  0m27.671s ~ 2.767
+user  0m27.610s
+sys 0m0.012s
+-------------------------------------------
+Test 7 GPU~32768
+Optimal score: 21406
+Optimal score: 21406
+Optimal score: 21406
+Optimal score: 21406
+Optimal score: 21406
+Optimal score: 21406
+Optimal score: 21406
+Optimal score: 21406
+Optimal score: 21406
+Optimal score: 21406
+
+real  0m12.190s ~ 1.219
+user  0m10.253s
+sys 0m1.456s
+Test 7 CPU~32768
+optimal score: 21406
+optimal score: 21406
+optimal score: 21406
+optimal score: 21406
+optimal score: 21406
+optimal score: 21406
+optimal score: 21406
+optimal score: 21406
+optimal score: 21406
+optimal score: 21406
+
+real  1m49.673s ~ 10.967
+user  1m49.595s
+sys 0m0.008s
+-------------------------------------------
+Test 8 GPU~65536
+Optimal score: 42845
+Optimal score: 42845
+Optimal score: 42845
+Optimal score: 42845
+Optimal score: 42845
+Optimal score: 42845
+Optimal score: 42845
+Optimal score: 42845
+Optimal score: 42845
+Optimal score: 42845
+
+real  0m23.532s ~ 2.353
+user  0m21.501s
+sys 0m1.520s
+Test 8 CPU~65536
+optimal score: 42845
+optimal score: 42845
+optimal score: 42845
+optimal score: 42845
+optimal score: 42845
+optimal score: 42845
+optimal score: 42845
+optimal score: 42845
+optimal score: 42845
+optimal score: 42845
+
+real  7m20.489s ~ 44.049
+user  7m20.019s
+sys 0m0.052s
+-------------------------------------------
+Test 9 GPU~131072
+Optimal score: 85654
+Optimal score: 85654
+Optimal score: 85654
+Optimal score: 85654
+Optimal score: 85654
+Optimal score: 85654
+Optimal score: 85654
+Optimal score: 85654
+Optimal score: 85654
+Optimal score: 85654
+
+real  0m58.260s ~ 5.826
+user  0m56.188s
+sys 0m1.500s
+Test 9 CPU~131072
+optimal score: 85654
+optimal score: 85654
+optimal score: 85654
+optimal score: 85654
+optimal score: 85654
+optimal score: 85654
+optimal score: 85654
+optimal score: 85654
+optimal score: 85654
+optimal score: 85654
+
+real  29m20.460s ~ 176.046
+user  29m18.522s
+sys 0m0.204s
+-------------------------------------------
+Test 10 GPU~262144
+Optimal score: 171475
+Optimal score: 171475
+Optimal score: 171475
+Optimal score: 171475
+Optimal score: 171475
+Optimal score: 171475
+Optimal score: 171475
+Optimal score: 171475
+Optimal score: 171475
+Optimal score: 171475
+
+real  5m20.482s ~ 32.048
+user  5m18.164s
+sys 0m1.580s
+Test 10 CPU~262144
+optimal score: 171475
+optimal score: 171475
+optimal score: 171475
+optimal score: 171475
+optimal score: 171475
+optimal score: 171475
+optimal score: 171475
+optimal score: 171475
+optimal score: 171475
+optimal score: 171475
+
+real  124m18.770s ~ 745.877
+user  124m15.010s
+sys 0m0.764s
+-------------------------------------------
+Test 11 GPU, 4~524288
+Optimal score: 342990
+Optimal score: 342990
+Optimal score: 342990
+Optimal score: 342990
+
+real  21m56.398s ~ 131.640
+user  21m44.462s
+sys 0m11.117s
+Test 11 CPU, 4~524288
+optimal score: 342990
+optimal score: 342990
+optimal score: 342990
+optimal score: 342990
+
+real  187m58.665s ~ 1127.867
+user  187m54.385s
+sys 0m1.276s\

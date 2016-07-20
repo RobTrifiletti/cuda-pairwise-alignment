@@ -1,0 +1,66 @@
+#!/bin/sh
+echo "Test 1 GPU"
+time (for i in {1..10}; do par/build/alignment tests/suite/496b.fasta tests/suite/512.fasta tests/standard_score.sm; done)
+echo "Test 1 CPU"
+time (for i in {1..10}; do ref/build/globalalign tests/suite/496b.fasta tests/suite/512.fasta tests/standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 2 GPU"
+time (for i in {1..10}; do par/build/alignment tests/suite/1024.fasta tests/suite/1006b.fasta tests/standard_score.sm; done)
+echo "Test 2 CPU"
+time (for i in {1..10}; do ref/build/globalalign tests/suite/1024.fasta tests/suite/1006b.fasta tests/standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 3 GPU"
+time (for i in {1..10}; do par/build/alignment tests/suite/2048.fasta tests/suite/2048b.fasta tests/standard_score.sm; done)
+echo "Test 3 CPU"
+time (for i in {1..10}; do ref/build/globalalign tests/suite/2048.fasta tests/suite/2048b.fasta tests/standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 4 GPU"
+time (for i in {1..10}; do par/build/alignment tests/suite/4096.fasta tests/suite/4074b.fasta tests/standard_score.sm; done)
+echo "Test 4 CPU"
+time (for i in {1..10}; do ref/build/globalalign tests/suite/4096.fasta tests/suite/4074b.fasta tests/standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 5 GPU"
+time (for i in {1..10}; do par/build/alignment tests/suite/8192.fasta tests/suite/8168b.fasta tests/standard_score.sm; done)
+echo "Test 5 CPU"
+time (for i in {1..10}; do ref/build/globalalign tests/suite/8192.fasta tests/suite/8168b.fasta tests/standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 6 GPU"
+time (for i in {1..10}; do par/build/alignment tests/suite/16358b.fasta tests/suite/16384.fasta tests/standard_score.sm; done)
+echo "Test 6 CPU"
+time (for i in {1..10}; do ref/build/globalalign tests/suite/16358b.fasta tests/suite/16384.fasta tests/standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 7 GPU"
+time (for i in {1..10}; do par/build/alignment tests/suite/32740b.fasta tests/suite/32768.fasta tests/standard_score.sm; done)
+echo "Test 7 CPU"
+time (for i in {1..10}; do ref/build/globalalign tests/suite/32740b.fasta tests/suite/32768.fasta tests/standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 8 GPU"
+time (for i in {1..10}; do par/build/alignment tests/suite/65536.fasta tests/suite/65506b.fasta tests/standard_score.sm; done)
+echo "Test 8 CPU"
+time (for i in {1..10}; do ref/build/globalalign tests/suite/65536.fasta tests/suite/65506b.fasta tests/standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 9 GPU"
+time (for i in {1..10}; do par/build/alignment tests/suite/131040b.fasta tests/suite/131072.fasta tests/standard_score.sm; done)
+echo "Test 9 CPU"
+time (for i in {1..10}; do ref/build/globalalign tests/suite/131040b.fasta tests/suite/131072.fasta tests/standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 10 GPU"
+time (for i in {1..10}; do par/build/alignment tests/suite/262110b.fasta tests/suite/262144.fasta tests/standard_score.sm; done)
+echo "Test 10 CPU"
+time (for i in {1..10}; do ref/build/globalalign tests/suite/262110b.fasta tests/suite/262144.fasta tests/standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 11 GPU, 4"
+time (for i in {1..4}; do par/build/alignment tests/suite/524252b.fasta tests/suite/524288.fasta tests/standard_score.sm; done)
+echo "Test 11 CPU, 4"
+time (for i in {1..4}; do ref/build/globalalign tests/suite/524252b.fasta tests/suite/524288.fasta tests/standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 12 GPU, 3"
+time (for i in {1..3}; do par/build/alignment tests/suite/1048576.fasta tests/suite/1048538b.fasta tests/standard_score.sm; done)
+echo "Test 12 CPU, 3"
+time (for i in {1..3}; do ref/build/globalalign tests/suite/1048576.fasta tests/suite/1048538b.fasta tests/standard_score.sm; done)
+echo "-------------------------------------------"
+echo "Test 13 GPU, 2"
+time (for i in {1..2}; do par/build/alignment tests/suite/2097112b.fasta tests/suite/2097152.fasta tests/standard_score.sm; done)
+echo "Test 13 CPU, 2"
+time (for i in {1..2}; do ref/build/globalalign tests/suite/2097112b.fasta tests/suite/2097152.fasta tests/standard_score.sm; done)
+echo "-------------------------------------------"
